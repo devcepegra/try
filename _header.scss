@@ -1,13 +1,18 @@
 
 .header-menu {
-    background-color: rgb(175, 175, 175);
+    background-color:blue;
 }
 
 .header-menu__ul {
     list-style: none;
     padding: 1em;
+    display: flex;
+}
+
+li { 
+    margin-left: 30px;
 }
 
 .header-menu__links{
-    color:black;
+    color:white;
 }

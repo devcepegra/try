@@ -1,11 +1,18 @@
 .header-menu {
-  background-color: #afafaf; }
+  background-color: blue; }
 
 .header-menu__ul {
   list-style: none;
-  padding: 1em; }
+  padding: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+li {
+  margin-left: 30px; }
 
 .header-menu__links {
-  color: black; }
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
